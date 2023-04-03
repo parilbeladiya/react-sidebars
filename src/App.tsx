@@ -1,5 +1,4 @@
-import { Sidebar as Example } from "./sidebars/sidebar-7/Sidebar";
-// import { Concept as Example } from "./concepts/concept-1/Concept";
+import { Sidebar as Example } from "./sidebars/sidebar-5/Sidebar";
 
 function App() {
   return <Example />;
