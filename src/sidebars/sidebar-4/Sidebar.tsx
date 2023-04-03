@@ -1,6 +1,5 @@
-import { FC, useEffect, useRef, useState } from "react";
+import { FC,  useState } from "react";
 import "./styles.css";
-import Logo from "./logo.png";
 
 const menuItems = [
   {
@@ -128,22 +127,22 @@ export const Sidebar = () => {
               <div className="row">
                 <div className="switch-label">Dark Mode</div>
                 <span className="switch">
-                  <input id="switch-round" type="checkbox" />
-                  <label htmlFor="switch-round"></label>
+                  <input id="switch-round-1" type="checkbox" />
+                  <label htmlFor="switch-round-1"></label>
                 </span>
               </div>
               <div className="row">
                 <div className="switch-label">Accessibility Mode</div>
                 <span className="switch">
-                  <input id="switch-round" type="checkbox" />
-                  <label htmlFor="switch-round"></label>
+                  <input id="switch-round-2" type="checkbox" />
+                  <label htmlFor="switch-round-2"></label>
                 </span>
               </div>
               <div className="row">
                 <div className="switch-label">Quirks Mode</div>
                 <span className="switch">
-                  <input id="switch-round" type="checkbox" />
-                  <label htmlFor="switch-round"></label>
+                  <input id="switch-round-3" type="checkbox" />
+                  <label htmlFor="switch-round-3"></label>
                 </span>
               </div>
             </form>

@@ -1,6 +1,5 @@
-import { FC, useEffect, useRef, useState } from "react";
+import { FC, useRef, useState } from "react";
 import "./styles.css";
-import Logo from "./logo.png";
 
 const menuItems = [
   {

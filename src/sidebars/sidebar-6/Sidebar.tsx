@@ -25,7 +25,7 @@ export const Sidebar = () => {
         >
           {isOpen ? "menu_open" : "menu"}
         </button>
-        <img src={logo} />
+        <img src={logo} alt=""/>
         <label className="create-label">CREATE</label>
         <div className="create">
           <button className="create-button">

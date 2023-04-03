@@ -48,7 +48,7 @@ const NavHeader = ({ onClick }: { onClick: VoidFunction }) => (
     <button onClick={onClick} type="button">
       <Icon icon="menu_open" />
     </button>
-    <img src={Logo} className="sidebar-logo" />
+    <img src={Logo} alt="" className="sidebar-logo" />
   </header>
 );
 

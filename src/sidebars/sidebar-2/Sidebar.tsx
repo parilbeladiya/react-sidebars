@@ -48,7 +48,7 @@ const NavHeader = () => (
     <button type="button">
       <Icon icon="menu" />
     </button>
-    <img src={Logo} className="sidebar-logo" />
+    <img src={Logo} alt="" className="sidebar-logo" />
   </header>
 );
 

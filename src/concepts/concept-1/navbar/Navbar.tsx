@@ -17,7 +17,7 @@ export const Navbar = ({
       menu
     </button>
     <div className="logo">
-      <img src={logo} />
+      <img src={logo} alt="" />
     </div>
     <div className="center">
       <div className="search">
@@ -38,7 +38,7 @@ export const Navbar = ({
       <button className="material-symbols-outlined">
         <span className="badge">9+</span>notifications
       </button>
-      <img src={joe} />
+      <img src={joe} alt=""/>
     </nav>
   </nav>
 );
